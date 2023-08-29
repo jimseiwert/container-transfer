@@ -10,6 +10,7 @@ The design was an alternative to [docker save](https://docs.docker.com/engine/re
 - This assumes you already ran a docker save on the source image and have the tar.gz file on the destination network. 
 - Docker export script coming soon
 - Tested against Azure Container Registry, not tested against others yet
+- Powershell script untested, just a port of the bash file
 
 ### Importing / Saving Source Images
     - Run the script from this repo under {{shell choice}}/import.(sh,ps1)
